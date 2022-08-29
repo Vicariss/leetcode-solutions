@@ -1,6 +1,8 @@
 # check if given list of integers contains duplicates
 
-hashset = set() 
+hashset = set()
+
+
 def duplicates(arr):
     for num in arr:
         if num in hashset:
